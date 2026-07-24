@@ -1,0 +1,25 @@
+/*
+ * Copyright (c) Huawei Technologies Co., Ltd. 2025-2025. All rights reserved.
+ * */
+export enum ErrorCode {
+  // 应用指纹证书校验失败
+  ERROR_CODE_CERTIFICATE_VERIFICATION_FAIL = 1001500001,
+  // 未同意协议
+  ERROR_CODE_AGREEMENT_STATUS_NOT_ACCEPTED = 1005300001,
+  // 该账号不支持一键登录，如海外账号
+  ERROR_CODE_NOT_SUPPORTED = 1001500003,
+  // 账号未登录.
+  ERROR_CODE_LOGIN_OUT = 1001502001,
+  // 网络错误.
+  ERROR_CODE_NETWORK_ERROR = 1001502005,
+  // 内部错误.
+  ERROR_CODE_INTERNAL_ERROR = 1001502009,
+  // 用户取消授权.
+  ERROR_CODE_USER_CANCEL = 1001502012,
+  // 系统服务异常.
+  ERROR_CODE_SYSTEM_SERVICE = 12300001,
+  // 重复请求.
+  ERROR_CODE_REQUEST_REFUSE = 1001500002,
+  // 参数错误
+  ERROR_CODE_PARAMETER_ERROR = 401,
+}

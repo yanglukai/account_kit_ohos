@@ -1,0 +1,10 @@
+{
+  "module": {
+    "name": "account_kit_ohos",
+    "type": "har",
+    "deviceTypes": [
+      "default",
+      "tablet"
+    ]
+  }
+}
