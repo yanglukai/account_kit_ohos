@@ -1,8 +1,8 @@
 name: account_kit_ohos
 description: "A Flutter plugin for HarmonyOS to integrate Huawei Account Quick Login."
 version: 0.0.1
-homepage:
-repository:
+homepage: https://github.com/yanglukai/account_kit_ohos
+repository: https://github.com/yanglukai/account_kit_ohos
 
 environment:
   sdk: '>=3.4.0 <4.0.0'
